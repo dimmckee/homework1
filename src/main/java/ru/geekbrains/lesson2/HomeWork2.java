@@ -13,6 +13,7 @@ public class HomeWork2 {
 
         /* Задание 2 */
 
+
         int[] arr2 = new int[8];
         for (int i = 0, int j = 1;
         i<arr2.length ;
