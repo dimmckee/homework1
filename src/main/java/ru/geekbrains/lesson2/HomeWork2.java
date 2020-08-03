@@ -53,7 +53,6 @@ public class HomeWork2 {
                 if ((i == j) || /* ? */) {
                     arr5[i][j] = 1;
                 }
-
             }
         }
 
