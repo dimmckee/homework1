@@ -81,7 +81,17 @@ public class HomeWork3 {
     }
 
     private static boolean checkWin(char c) {
-        // hor
+
+        for (int i = 0; i < 3; i++)
+            if ((field[i][0] == c && field[i][1] == c && field[i][2] == c) ||
+                    (field[0][1] == c && field[1][i] == c && field[2][i] == c))
+                return true;
+            if ((field[0][0] == c && field[1][1] == c && field[2][2] == c) ||
+                    (field[2][0] == c && field[1][1] == c && field[0][2] == c))
+                return true;
+            return false;
+
+       /* // hor
         if (field[0][0] == c && field[0][1] == c && field[0][2] == c) return true;
         if (field[1][0] == c && field[1][1] == c && field[1][2] == c) return true;
         if (field[2][0] == c && field[2][1] == c && field[2][2] == c) return true;
@@ -95,6 +105,8 @@ public class HomeWork3 {
         if (field[0][0] == c && field[1][1] == c && field[2][2] == c) return true;
         if (field[0][2] == c && field[1][1] == c && field[2][0] == c) return true;
         return false;
+
+        */
 
     }
 
