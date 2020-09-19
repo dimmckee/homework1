@@ -1,4 +1,4 @@
-package hm;
+package ru.geekbrains.ru.geekbrains;
 
 public class lesson1 {
     public static float calculate(float a, float b, float c, float d) {
@@ -36,4 +36,3 @@ public class lesson1 {
         System.out.println("Привет, " + name + " !");
     }
 }
-
