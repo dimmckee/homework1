@@ -1,12 +1,10 @@
-package ru.geekbrains.lesson1;
+package hm;
 
-public class HomeWork1 {
-
+public class lesson1 {
     public static float calculate(float a, float b, float c, float d) {
         System.out.println(a * (b + (c / d)));
-        return a * (b + (c / d)); //  не получается вызвать проверку //
+        return a * (b + (c / d));
     }
-
     public static boolean task10and20(int x1, int x2) {
         int inputAB ( int x1, int x2){
             int sum = x1 + x2;
@@ -18,7 +16,6 @@ public class HomeWork1 {
 
         }
     }
-
     public static void isPositiveOrNegative(int x) {
         if (x >= 0) {
             System.out.println("Число " + x + " Положительное");
@@ -39,3 +36,4 @@ public class HomeWork1 {
         System.out.println("Привет, " + name + " !");
     }
 }
+
