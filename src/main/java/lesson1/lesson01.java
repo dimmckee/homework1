@@ -16,6 +16,7 @@ public class lesson01 {
 
         }
     }
+
     public static void isPositiveOrNegative(int x) {
         if (x >= 0) {
             System.out.println("Число " + x + " Положительное");
